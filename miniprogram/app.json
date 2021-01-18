@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/index1",
+    "pages/index/index2"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "安全云",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#000080",
+    "backgroundColor": "#f7f7fa",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/image/02.png",
+        "selectedIconPath": "pages/image/03.png",
+        "text": "首页" 
+      },
+      {
+        "pagePath": "pages/index/index1",
+        "iconPath": "pages/image/13.png",
+        "selectedIconPath": "pages/image/14.png",
+        "text": "消息"
+        
+      },
+      {
+        "pagePath": "pages/index/index2",
+        "iconPath": "pages/image/11.png",
+        "selectedIconPath": "pages/image/11.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap89.json"
+}

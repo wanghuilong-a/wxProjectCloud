@@ -1,0 +1,143 @@
+<!--index.wxml-->
+<view>
+  <view class='imagesize'>
+ <image  src="../image/01.png" mode="widthFix" class='image' style="width:96%;">  
+     </image>  
+  </view> 
+
+  <view class="usermotto">
+    <image  src="../image/tongzhi.png" mode="aspectFit"></image> 
+    <rich-text>{{motto}}</rich-text>
+  </view>
+
+
+  <view class="middle">
+      <view>
+        <button class="btn"  plain="true">
+        <image src="../image/task.png">
+        </image>
+        <view style="margin-top:-15px;">
+          <text style="font-size: 24rpx;">我的任务</text>
+        </view>
+        </button>
+      </view>
+
+      <view>
+        <button class="btn"  plain="true">
+        <image src="../image/task.png">
+        </image>
+        <view style="margin-top:-15px;">
+          <text style="font-size: 24rpx;">隐患排查</text>
+        </view>
+        </button>
+      </view>
+
+      <view>
+        <button class="btn"  plain="true">
+        <image src="../image/task.png">
+        </image>
+        <view style="margin-top:-15px;">
+          <text style="font-size: 24rpx;">风险升级</text>
+        </view>
+        </button>
+      </view>
+
+      <view>
+        <button class="btn"  plain="true">
+        <image src="../image/task.png">
+        </image>
+        <view style="margin-top:-15px;">
+          <text style="font-size: 24rpx;">设备巡检</text>
+        </view>
+        </button>
+      </view>
+  </view>
+
+  <view class="middle">
+      <view>
+        <button class="btn"  plain="true" style="margin-top:40px;">
+        <image src="../image/task.png">
+        </image>
+        <view style="margin-top:-15px;">
+          <text style="font-size: 24rpx;">标准库</text>
+        </view>
+        </button>
+      </view>
+
+      <view>
+        <button class="btn"  plain="true" style="margin-top:40px;">
+        <image src="../image/task.png">
+        </image>
+        <view style="margin-top:-15px;">
+          <text style="font-size: 24rpx;">应急组织</text>
+        </view>
+        </button>
+      </view>
+
+      <view>
+        <button class="btn"  plain="true" style="margin-top:40px;">
+        <image src="../image/task.png">
+        </image>
+        <view style="margin-top:-15px;">
+          <text style="font-size: 24rpx;">我的培训</text>
+        </view>
+        </button>
+      </view>
+
+      <view>
+        <button class="btn"  plain="true" style="margin-top:40px;">
+        <image src="../image/task.png">
+        </image>
+        <view style="margin-top:-15px;">
+          <text style="font-size: 24rpx;">我的考试</text>
+        </view>
+        </button>
+      </view>
+  </view>
+
+  <view class="middle">
+      <view>
+        <button class="btn"  plain="true" style="margin-top:40px;">
+        <image src="../image/task.png">
+        </image>
+        <view style="margin-top:-15px;">
+          <text style="font-size: 24rpx;">我的查询</text>
+        </view>
+        </button>
+      </view>
+
+      <view>
+        <button class="btn"  plain="true" style="margin-top:40px;">
+        <image src="../image/task.png">
+        </image>
+        <view style="margin-top:-15px;">
+          <text style="font-size: 24rpx;">我的报表</text>
+        </view>
+        </button>
+      </view>
+
+      <view>
+        <button class="btn"  plain="true" style="margin-top:40px;">
+        <image src="../image/task.png">
+        </image>
+        <view style="margin-top:-15px;">
+          <text style="font-size: 24rpx;">我的企业</text>
+        </view>
+        </button>
+      </view>
+
+      <view>
+        <button class="btn"  plain="true" style="margin-top:40px;">
+        <image src="../image/task.png">
+        </image>
+        <view style="margin-top:-15px;">
+          <text style="font-size: 24rpx;">个人中心</text>
+        </view>
+        </button>
+      </view>
+  </view>
+
+
+  
+</view>
+
